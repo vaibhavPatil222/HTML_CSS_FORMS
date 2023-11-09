@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            margin-left: 300px;
+            margin-top: 10px;
+            height: 400px;
+            width: 400px;
+            background-color: aqua;
+            font-weight: bolder;
+
+        }
+        h2{
+            margin-left: 300px;
+            margin-top: 40px;
+            text-decoration: underline;
+            
+        }
+        .sub{
+            margin-left: 100px;
+            height: 30px;
+            width: 90px;
+            background-color: rgb(127, 255, 47);
+            color: white;
+            border: none;
+        }
+        button{
+            margin-left: 40px;
+            height: 30px;
+            width: 90px;
+            background-color: blue;
+            color: white;
+            border: none;
+
+        }
+        #button{
+            background-color: rgb(13, 206, 13);
+        }
+        label, caption, input{
+            padding-left: 20px;
+        }
+       
+       
+    </style>
+</head>
+<body>
+    
+    <h2>Project Management</h2>
+    <div class="div1">
+    <form>
+        <label for="text">Project Name</label>
+        <input type="text" id="text" name="text" placeholder="project name">
+        <br/>
+        <br/>
+        <label for="text1">Assigned to</label>
+        <select id="text1" name="text">
+        <option value="Er. vaibhav" >Er.vaibhav</option>
+        <option value="Er. chandradeep" >Er.chandradeep </option>
+        <option value="Er. rahul" >Er. rahul</option>
+    </select>
+        <br/>
+        <br/>
+        <label for="sdate">Start Date</label>
+        <input type="date" id="sdate" name="sdate">
+        <br/>
+        <br/>
+        <label for="edate">End Date</label>
+        <input type="date" id="edate" name="edate">
+        <br/>
+        <br/>
+        <caption>Priority</caption>
+        <input type="radio" id="radio" name="radio">
+        <label for="radio">High</label>
+        <input type="radio" id="radio" name="radio">
+        <label for="radio1">Avarage</label>
+        <input type="radio" id="radio" name="radio">
+        <label for="radio">Low</label>
+        <br/>
+        <br/>
+        <label for="addr">Description</label>
+        <textarea name="message" rows="5" cols="30"></textarea>
+        <br/>
+        <br/>
+        <label for="button"></label>
+        <button id="button" name="button">submit</button>
+        <label for="clear"></label>
+        <button id="clear" name="clear" type="clear">clear</button>
+    </form>
+</div>
+</body>
+</html>
